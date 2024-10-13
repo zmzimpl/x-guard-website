@@ -23,7 +23,7 @@ export default function Home() {
               Everything about X,<br />in just <span className="text-primary">one extension</span>
             </h2>
             <div className="flex justify-center space-x-4 mb-12">
-              <ChromeStoreButton />
+              <ChromeStoreButton placeholder="Add to Chrome, it's Free" />
             </div>
             <div className="relative">
               <Image
@@ -116,9 +116,8 @@ export default function Home() {
 
           <section className="text-center mb-20">
             <h3 className="text-3xl font-semibold mb-8 text-primary">Ready to enhance your X experience?</h3>
-            <Button className="bg-primary hover:bg-primary/80 text-white px-8 py-6 text-lg rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105">
-              Get X Guard Now - It&apos;s Free!
-            </Button>
+
+            <ChromeStoreButton placeholder="Get X Guard Now - It's Free!" />
           </section>
 
           {/* social media links */}
